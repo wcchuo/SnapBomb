@@ -1,8 +1,17 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8150" systemVersion="15A204g" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8164.2" systemVersion="14E46" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8122"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8135.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="Helvetica.ttc">
+            <string>Helvetica-Bold</string>
+        </mutableArray>
+        <mutableArray key="HelveticaNeue.ttc">
+            <string>HelveticaNeue-Bold</string>
+        </mutableArray>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="EHf-IW-A2E">
@@ -15,8 +24,55 @@
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LaunchScreenVirtical.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="Bzm-VT-698">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Joy Li, Jung No" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5lE-LD-8Lh">
+                                <rect key="frame" x="410.5" y="523.5" width="169.5" height="27.5"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Wei Chung Chuo" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wVH-KN-lxG">
+                                <rect key="frame" x="395" y="553" width="185" height="26.5"/>
+                                <fontDescription key="fontDescription" name="Helvetica-Bold" family="Helvetica" pointSize="23"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mind The" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ecw-On-iZB">
+                                <rect key="frame" x="199" y="84" width="203" height="46"/>
+                                <fontDescription key="fontDescription" name="GillSans-UltraBold" family="Gill Sans" pointSize="36"/>
+                                <color key="textColor" red="0.96078437569999997" green="0.97647064920000004" blue="0.92549026010000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.090196080509999998" green="0.047058828179999998" blue="0.023529414089999999" alpha="1" colorSpace="deviceRGB"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mine!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsLetterSpacingToFitWidth="YES" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="43T-sv-x84">
+                                <rect key="frame" x="197" y="119" width="207" height="77.5"/>
+                                <fontDescription key="fontDescription" name="GillSans-UltraBold" family="Gill Sans" pointSize="61"/>
+                                <color key="textColor" red="0.96078437569999997" green="0.97647064920000004" blue="0.92549026010000002" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" red="0.090196080509999998" green="0.047058828179999998" blue="0.023529414089999999" alpha="1" colorSpace="deviceRGB"/>
+                                <size key="shadowOffset" width="-1" height="-1"/>
+                            </label>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Ecw-On-iZB" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="5bD-Ba-eOZ"/>
+                            <constraint firstItem="5lE-LD-8Lh" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="5le-UD-KNH"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Bzm-VT-698" secondAttribute="trailing" constant="-20" id="KTc-X4-eSd"/>
+                            <constraint firstItem="43T-sv-x84" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="LHP-LN-Tmp"/>
+                            <constraint firstItem="wVH-KN-lxG" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="O6E-a0-ZlJ"/>
+                            <constraint firstItem="Bzm-VT-698" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="topMargin" id="Q9e-t9-XQc"/>
+                            <constraint firstItem="Bzm-VT-698" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="-20" id="Sbp-90-xfL"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="Bzm-VT-698" secondAttribute="bottom" id="Tyi-rb-cgu"/>
+                            <constraint firstItem="43T-sv-x84" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="99" id="VaU-cw-ODH"/>
+                            <constraint firstItem="xb3-aO-Qok" firstAttribute="top" secondItem="wVH-KN-lxG" secondAttribute="bottom" constant="20.5" id="WO6-s2-aC5"/>
+                            <constraint firstItem="wVH-KN-lxG" firstAttribute="top" secondItem="5lE-LD-8Lh" secondAttribute="bottom" constant="2" id="eeG-6w-ZED"/>
+                            <constraint firstItem="Ecw-On-iZB" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="64" id="ztx-fJ-Ven"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -24,4 +80,7 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LaunchScreenVirtical.jpg" width="1242" height="2208"/>
+    </resources>
 </document>

@@ -14,6 +14,23 @@
 		B5DF73701B85771E004F92EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5DF736E1B85771E004F92EA /* LaunchScreen.storyboard */; };
 		B5DF737B1B85771E004F92EA /* MindTheMineTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF737A1B85771E004F92EA /* MindTheMineTests.swift */; };
 		B5DF73861B85771F004F92EA /* MindTheMineUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF73851B85771F004F92EA /* MindTheMineUITests.swift */; };
+		B5DF73961B85A49F004F92EA /* LaunchScreenVirtical.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B5DF73951B85A49F004F92EA /* LaunchScreenVirtical.jpg */; };
+		B5DF73981B85A963004F92EA /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF73971B85A963004F92EA /* MainViewController.swift */; };
+		B5DF739A1B85ABA9004F92EA /* 03-shika-kutsujyokuka-no-sentaku-player-select-.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = B5DF73991B85ABA9004F92EA /* 03-shika-kutsujyokuka-no-sentaku-player-select-.mp3 */; };
+		B5DF739C1B85B2C1004F92EA /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF739B1B85B2C1004F92EA /* CameraViewController.swift */; };
+		B5DF73AB1B85B31B004F92EA /* SocketAckManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF739E1B85B31B004F92EA /* SocketAckManager.swift */; };
+		B5DF73AC1B85B31B004F92EA /* SocketAnyEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF739F1B85B31B004F92EA /* SocketAnyEvent.swift */; };
+		B5DF73AD1B85B31B004F92EA /* SocketEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF73A01B85B31B004F92EA /* SocketEngine.swift */; };
+		B5DF73AE1B85B31B004F92EA /* SocketEngineClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF73A11B85B31B004F92EA /* SocketEngineClient.swift */; };
+		B5DF73AF1B85B31B004F92EA /* SocketEventHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF73A21B85B31B004F92EA /* SocketEventHandler.swift */; };
+		B5DF73B01B85B31B004F92EA /* SocketFixUTF8.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF73A31B85B31B004F92EA /* SocketFixUTF8.swift */; };
+		B5DF73B11B85B31B004F92EA /* SocketIOClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF73A41B85B31B004F92EA /* SocketIOClient.swift */; };
+		B5DF73B21B85B31B004F92EA /* SocketLogger.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF73A51B85B31B004F92EA /* SocketLogger.swift */; };
+		B5DF73B31B85B31B004F92EA /* SocketPacket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF73A61B85B31B004F92EA /* SocketPacket.swift */; };
+		B5DF73B41B85B31B004F92EA /* SocketParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF73A71B85B31B004F92EA /* SocketParser.swift */; };
+		B5DF73B51B85B31B004F92EA /* SocketTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF73A81B85B31B004F92EA /* SocketTypes.swift */; };
+		B5DF73B61B85B31B004F92EA /* SwiftRegex.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF73A91B85B31B004F92EA /* SwiftRegex.swift */; };
+		B5DF73B71B85B31B004F92EA /* WebSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5DF73AA1B85B31B004F92EA /* WebSocket.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,19 +51,36 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		B5DF73621B85771E004F92EA /* MindTheMine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MindTheMine.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DF73621B85771E004F92EA /* Mind The Mine!.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mind The Mine!.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DF73651B85771E004F92EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B5DF73671B85771E004F92EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B5DF736A1B85771E004F92EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B5DF736C1B85771E004F92EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5DF736F1B85771E004F92EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5DF73711B85771E004F92EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5DF73761B85771E004F92EA /* MindTheMineTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindTheMineTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DF73761B85771E004F92EA /* Mind The Mine!.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mind The Mine!.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DF737A1B85771E004F92EA /* MindTheMineTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindTheMineTests.swift; sourceTree = "<group>"; };
 		B5DF737C1B85771E004F92EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B5DF73811B85771E004F92EA /* MindTheMineUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MindTheMineUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B5DF73811B85771E004F92EA /* Mind The Mine!.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Mind The Mine!.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B5DF73851B85771F004F92EA /* MindTheMineUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MindTheMineUITests.swift; sourceTree = "<group>"; };
 		B5DF73871B85771F004F92EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5DF73951B85A49F004F92EA /* LaunchScreenVirtical.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = LaunchScreenVirtical.jpg; sourceTree = "<group>"; };
+		B5DF73971B85A963004F92EA /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		B5DF73991B85ABA9004F92EA /* 03-shika-kutsujyokuka-no-sentaku-player-select-.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "03-shika-kutsujyokuka-no-sentaku-player-select-.mp3"; sourceTree = "<group>"; };
+		B5DF739B1B85B2C1004F92EA /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		B5DF739E1B85B31B004F92EA /* SocketAckManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAckManager.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketAckManager.swift; sourceTree = "<group>"; };
+		B5DF739F1B85B31B004F92EA /* SocketAnyEvent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketAnyEvent.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketAnyEvent.swift; sourceTree = "<group>"; };
+		B5DF73A01B85B31B004F92EA /* SocketEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngine.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketEngine.swift; sourceTree = "<group>"; };
+		B5DF73A11B85B31B004F92EA /* SocketEngineClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEngineClient.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketEngineClient.swift; sourceTree = "<group>"; };
+		B5DF73A21B85B31B004F92EA /* SocketEventHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketEventHandler.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketEventHandler.swift; sourceTree = "<group>"; };
+		B5DF73A31B85B31B004F92EA /* SocketFixUTF8.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketFixUTF8.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketFixUTF8.swift; sourceTree = "<group>"; };
+		B5DF73A41B85B31B004F92EA /* SocketIOClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketIOClient.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketIOClient.swift; sourceTree = "<group>"; };
+		B5DF73A51B85B31B004F92EA /* SocketLogger.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketLogger.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketLogger.swift; sourceTree = "<group>"; };
+		B5DF73A61B85B31B004F92EA /* SocketPacket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketPacket.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketPacket.swift; sourceTree = "<group>"; };
+		B5DF73A71B85B31B004F92EA /* SocketParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketParser.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketParser.swift; sourceTree = "<group>"; };
+		B5DF73A81B85B31B004F92EA /* SocketTypes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SocketTypes.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SocketTypes.swift; sourceTree = "<group>"; };
+		B5DF73A91B85B31B004F92EA /* SwiftRegex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SwiftRegex.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/SwiftRegex.swift; sourceTree = "<group>"; };
+		B5DF73AA1B85B31B004F92EA /* WebSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = WebSocket.swift; path = ../../../../../../../Downloads/SocketIOClientSwift/WebSocket.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,9 +121,9 @@
 		B5DF73631B85771E004F92EA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B5DF73621B85771E004F92EA /* MindTheMine.app */,
-				B5DF73761B85771E004F92EA /* MindTheMineTests.xctest */,
-				B5DF73811B85771E004F92EA /* MindTheMineUITests.xctest */,
+				B5DF73621B85771E004F92EA /* Mind The Mine!.app */,
+				B5DF73761B85771E004F92EA /* Mind The Mine!.xctest */,
+				B5DF73811B85771E004F92EA /* Mind The Mine!.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -97,12 +131,16 @@
 		B5DF73641B85771E004F92EA /* MindTheMine */ = {
 			isa = PBXGroup;
 			children = (
+				B5DF739D1B85B308004F92EA /* SocketIO */,
 				B5DF73651B85771E004F92EA /* AppDelegate.swift */,
+				B5DF73941B85A47A004F92EA /* Assets */,
 				B5DF73671B85771E004F92EA /* ViewController.swift */,
 				B5DF73691B85771E004F92EA /* Main.storyboard */,
 				B5DF736C1B85771E004F92EA /* Assets.xcassets */,
 				B5DF736E1B85771E004F92EA /* LaunchScreen.storyboard */,
 				B5DF73711B85771E004F92EA /* Info.plist */,
+				B5DF73971B85A963004F92EA /* MainViewController.swift */,
+				B5DF739B1B85B2C1004F92EA /* CameraViewController.swift */,
 			);
 			path = MindTheMine;
 			sourceTree = "<group>";
@@ -125,12 +163,41 @@
 			path = MindTheMineUITests;
 			sourceTree = "<group>";
 		};
+		B5DF73941B85A47A004F92EA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF73991B85ABA9004F92EA /* 03-shika-kutsujyokuka-no-sentaku-player-select-.mp3 */,
+				B5DF73951B85A49F004F92EA /* LaunchScreenVirtical.jpg */,
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		B5DF739D1B85B308004F92EA /* SocketIO */ = {
+			isa = PBXGroup;
+			children = (
+				B5DF739E1B85B31B004F92EA /* SocketAckManager.swift */,
+				B5DF739F1B85B31B004F92EA /* SocketAnyEvent.swift */,
+				B5DF73A01B85B31B004F92EA /* SocketEngine.swift */,
+				B5DF73A11B85B31B004F92EA /* SocketEngineClient.swift */,
+				B5DF73A21B85B31B004F92EA /* SocketEventHandler.swift */,
+				B5DF73A31B85B31B004F92EA /* SocketFixUTF8.swift */,
+				B5DF73A41B85B31B004F92EA /* SocketIOClient.swift */,
+				B5DF73A51B85B31B004F92EA /* SocketLogger.swift */,
+				B5DF73A61B85B31B004F92EA /* SocketPacket.swift */,
+				B5DF73A71B85B31B004F92EA /* SocketParser.swift */,
+				B5DF73A81B85B31B004F92EA /* SocketTypes.swift */,
+				B5DF73A91B85B31B004F92EA /* SwiftRegex.swift */,
+				B5DF73AA1B85B31B004F92EA /* WebSocket.swift */,
+			);
+			name = SocketIO;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		B5DF73611B85771E004F92EA /* MindTheMine */ = {
+		B5DF73611B85771E004F92EA /* Mind The Mine! */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5DF738A1B85771F004F92EA /* Build configuration list for PBXNativeTarget "MindTheMine" */;
+			buildConfigurationList = B5DF738A1B85771F004F92EA /* Build configuration list for PBXNativeTarget "Mind The Mine!" */;
 			buildPhases = (
 				B5DF735E1B85771E004F92EA /* Sources */,
 				B5DF735F1B85771E004F92EA /* Frameworks */,
@@ -140,14 +207,14 @@
 			);
 			dependencies = (
 			);
-			name = MindTheMine;
+			name = "Mind The Mine!";
 			productName = MindTheMine;
-			productReference = B5DF73621B85771E004F92EA /* MindTheMine.app */;
+			productReference = B5DF73621B85771E004F92EA /* Mind The Mine!.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B5DF73751B85771E004F92EA /* MindTheMineTests */ = {
+		B5DF73751B85771E004F92EA /* Mind The Mine!Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5DF738D1B85771F004F92EA /* Build configuration list for PBXNativeTarget "MindTheMineTests" */;
+			buildConfigurationList = B5DF738D1B85771F004F92EA /* Build configuration list for PBXNativeTarget "Mind The Mine!Tests" */;
 			buildPhases = (
 				B5DF73721B85771E004F92EA /* Sources */,
 				B5DF73731B85771E004F92EA /* Frameworks */,
@@ -158,14 +225,14 @@
 			dependencies = (
 				B5DF73781B85771E004F92EA /* PBXTargetDependency */,
 			);
-			name = MindTheMineTests;
+			name = "Mind The Mine!Tests";
 			productName = MindTheMineTests;
-			productReference = B5DF73761B85771E004F92EA /* MindTheMineTests.xctest */;
+			productReference = B5DF73761B85771E004F92EA /* Mind The Mine!.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B5DF73801B85771E004F92EA /* MindTheMineUITests */ = {
+		B5DF73801B85771E004F92EA /* Mind The Mine!UITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B5DF73901B85771F004F92EA /* Build configuration list for PBXNativeTarget "MindTheMineUITests" */;
+			buildConfigurationList = B5DF73901B85771F004F92EA /* Build configuration list for PBXNativeTarget "Mind The Mine!UITests" */;
 			buildPhases = (
 				B5DF737D1B85771E004F92EA /* Sources */,
 				B5DF737E1B85771E004F92EA /* Frameworks */,
@@ -176,9 +243,9 @@
 			dependencies = (
 				B5DF73831B85771E004F92EA /* PBXTargetDependency */,
 			);
-			name = MindTheMineUITests;
+			name = "Mind The Mine!UITests";
 			productName = MindTheMineUITests;
-			productReference = B5DF73811B85771E004F92EA /* MindTheMineUITests.xctest */;
+			productReference = B5DF73811B85771E004F92EA /* Mind The Mine!.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -203,7 +270,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B5DF735D1B85771E004F92EA /* Build configuration list for PBXProject "MindTheMine" */;
+			buildConfigurationList = B5DF735D1B85771E004F92EA /* Build configuration list for PBXProject "Mind The Mine!" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -216,9 +283,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B5DF73611B85771E004F92EA /* MindTheMine */,
-				B5DF73751B85771E004F92EA /* MindTheMineTests */,
-				B5DF73801B85771E004F92EA /* MindTheMineUITests */,
+				B5DF73611B85771E004F92EA /* Mind The Mine! */,
+				B5DF73751B85771E004F92EA /* Mind The Mine!Tests */,
+				B5DF73801B85771E004F92EA /* Mind The Mine!UITests */,
 			);
 		};
 /* End PBXProject section */
@@ -228,6 +295,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5DF739A1B85ABA9004F92EA /* 03-shika-kutsujyokuka-no-sentaku-player-select-.mp3 in Resources */,
+				B5DF73961B85A49F004F92EA /* LaunchScreenVirtical.jpg in Resources */,
 				B5DF73701B85771E004F92EA /* LaunchScreen.storyboard in Resources */,
 				B5DF736D1B85771E004F92EA /* Assets.xcassets in Resources */,
 				B5DF736B1B85771E004F92EA /* Main.storyboard in Resources */,
@@ -255,6 +324,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5DF73981B85A963004F92EA /* MainViewController.swift in Sources */,
+				B5DF73B01B85B31B004F92EA /* SocketFixUTF8.swift in Sources */,
+				B5DF73B21B85B31B004F92EA /* SocketLogger.swift in Sources */,
+				B5DF73B71B85B31B004F92EA /* WebSocket.swift in Sources */,
+				B5DF73B61B85B31B004F92EA /* SwiftRegex.swift in Sources */,
+				B5DF73B41B85B31B004F92EA /* SocketParser.swift in Sources */,
+				B5DF73AE1B85B31B004F92EA /* SocketEngineClient.swift in Sources */,
+				B5DF73AB1B85B31B004F92EA /* SocketAckManager.swift in Sources */,
+				B5DF73AF1B85B31B004F92EA /* SocketEventHandler.swift in Sources */,
+				B5DF73B51B85B31B004F92EA /* SocketTypes.swift in Sources */,
+				B5DF73B31B85B31B004F92EA /* SocketPacket.swift in Sources */,
+				B5DF73B11B85B31B004F92EA /* SocketIOClient.swift in Sources */,
+				B5DF73AC1B85B31B004F92EA /* SocketAnyEvent.swift in Sources */,
+				B5DF73AD1B85B31B004F92EA /* SocketEngine.swift in Sources */,
+				B5DF739C1B85B2C1004F92EA /* CameraViewController.swift in Sources */,
 				B5DF73681B85771E004F92EA /* ViewController.swift in Sources */,
 				B5DF73661B85771E004F92EA /* AppDelegate.swift in Sources */,
 			);
@@ -281,12 +365,12 @@
 /* Begin PBXTargetDependency section */
 		B5DF73781B85771E004F92EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5DF73611B85771E004F92EA /* MindTheMine */;
+			target = B5DF73611B85771E004F92EA /* Mind The Mine! */;
 			targetProxy = B5DF73771B85771E004F92EA /* PBXContainerItemProxy */;
 		};
 		B5DF73831B85771E004F92EA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B5DF73611B85771E004F92EA /* MindTheMine */;
+			target = B5DF73611B85771E004F92EA /* Mind The Mine! */;
 			targetProxy = B5DF73821B85771E004F92EA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -398,10 +482,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MindTheMine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wcc.MindTheMine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Mind The Mine!";
 			};
 			name = Debug;
 		};
@@ -409,10 +494,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = MindTheMine/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wcc.MindTheMine;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Mind The Mine!";
 			};
 			name = Release;
 		};
@@ -423,8 +509,8 @@
 				INFOPLIST_FILE = MindTheMineTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wcc.MindTheMineTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindTheMine.app/MindTheMine";
+				PRODUCT_NAME = "Mind The Mine!";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mind The Mine!.app/Mind The Mine!";
 			};
 			name = Debug;
 		};
@@ -435,8 +521,8 @@
 				INFOPLIST_FILE = MindTheMineTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wcc.MindTheMineTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MindTheMine.app/MindTheMine";
+				PRODUCT_NAME = "Mind The Mine!";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Mind The Mine!.app/Mind The Mine!";
 			};
 			name = Release;
 		};
@@ -446,7 +532,7 @@
 				INFOPLIST_FILE = MindTheMineUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wcc.MindTheMineUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Mind The Mine!";
 				TEST_TARGET_NAME = MindTheMine;
 				USES_XCTRUNNER = YES;
 			};
@@ -458,7 +544,7 @@
 				INFOPLIST_FILE = MindTheMineUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = wcc.MindTheMineUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Mind The Mine!";
 				TEST_TARGET_NAME = MindTheMine;
 				USES_XCTRUNNER = YES;
 			};
@@ -467,7 +553,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		B5DF735D1B85771E004F92EA /* Build configuration list for PBXProject "MindTheMine" */ = {
+		B5DF735D1B85771E004F92EA /* Build configuration list for PBXProject "Mind The Mine!" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5DF73881B85771F004F92EA /* Debug */,
@@ -476,29 +562,32 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5DF738A1B85771F004F92EA /* Build configuration list for PBXNativeTarget "MindTheMine" */ = {
+		B5DF738A1B85771F004F92EA /* Build configuration list for PBXNativeTarget "Mind The Mine!" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5DF738B1B85771F004F92EA /* Debug */,
 				B5DF738C1B85771F004F92EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B5DF738D1B85771F004F92EA /* Build configuration list for PBXNativeTarget "MindTheMineTests" */ = {
+		B5DF738D1B85771F004F92EA /* Build configuration list for PBXNativeTarget "Mind The Mine!Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5DF738E1B85771F004F92EA /* Debug */,
 				B5DF738F1B85771F004F92EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		B5DF73901B85771F004F92EA /* Build configuration list for PBXNativeTarget "MindTheMineUITests" */ = {
+		B5DF73901B85771F004F92EA /* Build configuration list for PBXNativeTarget "Mind The Mine!UITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B5DF73911B85771F004F92EA /* Debug */,
 				B5DF73921B85771F004F92EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
